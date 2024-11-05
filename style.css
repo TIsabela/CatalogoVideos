@@ -2,12 +2,6 @@ body{
     background-color: black;
     color: white;
 }
-
-header{
-    font-family: "Chraka Petch", sans-serif;
-    font-size: 40px;
-}
-
 section{
     background-color: rgb(74, 10, 142);
     padding-bottom: 5%;
@@ -15,7 +9,17 @@ section{
     display: flex;
     justify-content: center;
 }
-.texto{
-margin-right: 5%;
+
+.chamada{
+    margin-right: 5%;
 }
 
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+
+}
